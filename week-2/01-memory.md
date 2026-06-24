@@ -1,0 +1,13 @@
+### Glossary
+
+| Term                       | Definition                                                                                                                                                                                                 |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Binary                     | A two-value number system (0 and 1) that reflects the two physical states of a computer's hardware switches — off or on.                                                                                   |
+| Bit                        | The smallest unit of data in a computer — a single binary digit with a value of 0 or 1.                                                                                                                    |
+| Byte                       | A group of 8 bits. A byte can represent 256 distinct values and is the basic addressable unit of RAM.                                                                                                      |
+| RAM (Random Access Memory) | The computer's working memory — volatile storage that holds data currently in use. Any address can be accessed in the same amount of time.                                                                 |
+| Volatile                   | Describes storage that requires power to retain data. RAM is volatile; hard drives and SSDs are not.                                                                                                       |
+| Memory Address             | A unique number identifying a specific byte's location in RAM. The CPU uses addresses to find data directly, without searching.                                                                            |
+| Value                      | Data stored directly at a variable's memory location. Primitive types in JavaScript (numbers, strings, booleans) are stored by value — each variable gets its own copy.                                    |
+| Reference                  | A memory address stored in a variable, pointing to where the actual data lives. Objects and arrays in JavaScript are stored by reference — multiple variables can point to the same data.                  |
+| Contiguous Memory          | Memory locations that are sequential and adjacent with no gaps between them. Arrays use contiguous memory, which allows any element's address to be calculated directly from its index, without searching. |
